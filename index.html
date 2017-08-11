@@ -4,16 +4,20 @@
         <meta charset="utf-8" />
         <title>Canvas Example</title>
         <script src="01.01.canvas.js"></script>
+        <script src="02.01.canvas.js"></script>
+        <script src="02.02.fadeout.js"></script>
         <style>
-        * {
+        body {
             margin: 0px;
+            padding: 0px;
         }
         canvas {
             border: 1px solid black;
         }
         </style>
     </head>
-    <body onLoad="init();">
+    <body onLoad="init01();init02();init0202()">
+        <h1>Chapter 1. Drawing Shapes in Canvas</h1>
         <canvas id="myCanvas"></canvas>
         <canvas id="palau"   width="252" height="180"></canvas>
         <canvas id="greece"  width="252" height="180"></canvas>
@@ -23,5 +27,14 @@
         <canvas id="israel"  width="252" height="180"></canvas>
         <canvas id="somalia" width="252" height="180"></canvas>
         <canvas id="turkey"  width="252" height="180"></canvas>
+        
+        <h1>Chapter 2. Acvanced Drawing in Canvas</h1>
+        <canvas id="pacman" width="252" height="180"></canvas>
+        <canvas id="eye"    width="252" height="180"></canvas>
+        <canvas id="canada" width="360" height="180"></canvas>
+        <canvas id="haiti"  width="252" height="180"></canvas>
+        <canvas id="haitiFilledStar" width="252" height="180"></canvas>
+        <canvas id="textCanvas" width="550" height="360"></canvas>
+        <canvas id="slideCanvas" width="550" height="360"></canvas>
     </body>
 </html>

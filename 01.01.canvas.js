@@ -1,4 +1,4 @@
-function init() {
+function init01() {
     updateCanvas();
     initPalauFlag();
     initGreeceFlag();
